@@ -67,3 +67,21 @@ def last_square(x):
     while i**2 < x:
         i = i + 1
     return (i-1)**2
+
+
+def overlaps(low0, high0, low1, high1):
+    """Return whether the open intervals (LOW0, HIGH0) and (LOW1, HIGH1)
+    overlap.
+
+    >>> overlaps(10, 15, 14, 16)
+    True
+    >>> overlaps(10, 15, 1, 5)
+    False
+    >>> overlaps(10, 10, 9, 11)
+    False
+    >>> result = overlaps(1, 5, 0, 3)  # Return, don't print
+    >>> result
+    True
+
+    """
+    return
